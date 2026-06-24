@@ -1,0 +1,17 @@
+table_name,source_rows,database_rows,match_status
+clean_01_fund_master,6,6,MATCH
+clean_02_nav_history,29203,29203,MATCH
+clean_03_aum_by_fund_house,6,6,MATCH
+clean_04_monthly_sip,12,12,MATCH
+clean_05_category_inflows,6,6,MATCH
+clean_06_folio_count,6,6,MATCH
+clean_07_scheme_performance,6,6,MATCH
+clean_08_transactions,100,100,MATCH
+clean_09_holdings,30,30,MATCH
+clean_10_benchmark,6,6,MATCH
+dim_fund,star_schema_table,6,INFO
+dim_date,star_schema_table,4923,INFO
+fact_nav,star_schema_table,29203,INFO
+fact_transactions,star_schema_table,100,INFO
+fact_performance,star_schema_table,6,INFO
+fact_aum,star_schema_table,6,INFO
