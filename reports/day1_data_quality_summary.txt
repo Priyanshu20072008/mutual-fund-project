@@ -1,0 +1,16 @@
+DAY 1 DATA QUALITY SUMMARY
+================================================================================
+
+01_fund_master.csv: Loaded successfully | Shape: (6, 8) | Duplicate rows: 0
+NOTE: 01_fund_master.csv has missing values.
+02_nav_history.csv: Loaded successfully | Shape: (19894, 8) | Duplicate rows: 0
+03_aum_by_fund_house.csv: Loaded successfully | Shape: (6, 3) | Duplicate rows: 0
+04_monthly_sip.csv: Loaded successfully | Shape: (12, 3) | Duplicate rows: 0
+05_category_inflows.csv: Loaded successfully | Shape: (6, 5) | Duplicate rows: 0
+06_folio_count.csv: Loaded successfully | Shape: (6, 5) | Duplicate rows: 0
+07_scheme_performance.csv: Loaded successfully | Shape: (6, 6) | Duplicate rows: 0
+08_transactions.csv: Loaded successfully | Shape: (100, 6) | Duplicate rows: 0
+09_holdings.csv: Loaded successfully | Shape: (30, 5) | Duplicate rows: 0
+10_benchmark.csv: Loaded successfully | Shape: (6, 5) | Duplicate rows: 0
+NOTE: risk grade column not found in fund_master.
+Validation Passed: Every fund_master scheme_code exists in nav_history.
